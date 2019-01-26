@@ -1,0 +1,150 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1840 ]
+[d frameptr 6 ]
+"205 H:\MPLAB\Wave2.X\Wave2.c
+[e E1890 State `uc
+still 0
+]
+"5 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 H:\MPLAB\Wave2.X\RAINBO.c
+[v _init init `(v  1 e 1 0 ]
+"37
+[v _initEUSART initEUSART `(v  1 e 1 0 ]
+"44 H:\MPLAB\Wave2.X\Wave2.c
+[v _neoArray neoArray `(v  1 e 1 0 ]
+"81
+[v _neoRGB neoRGB `(v  1 e 1 0 ]
+"178
+[v _populateArray populateArray `(v  1 e 1 0 ]
+"199
+[v _main main `(i  1 e 2 0 ]
+"351 C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"429
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"1002
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1154
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1288
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1405
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1586
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"1666
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1732
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2395
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2670
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2726
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2776
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"2985
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4934
+[v _BRG16 BRG16 `VEb  1 e 0 @3323 ]
+"4937
+[v _BRGH BRGH `VEb  1 e 0 @3314 ]
+"5111
+[v _CREN CREN `VEb  1 e 0 @3308 ]
+"5447
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+"5489
+[v _RA5 RA5 `VEb  1 e 0 @101 ]
+"5501
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"5558
+[v _SPEN SPEN `VEb  1 e 0 @3311 ]
+"5657
+[v _SYNC SYNC `VEb  1 e 0 @3316 ]
+"5 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\rand.c
+[v _seed seed `ul  1 s 4 seed ]
+"14 H:\MPLAB\Wave2.X\Wave2.c
+[v _red red `uc  1 e 1 0 ]
+"15
+[v _green green `uc  1 e 1 0 ]
+"16
+[v _blue blue `uc  1 e 1 0 ]
+"17
+[v _startValue startValue `uc  1 e 1 0 ]
+"19
+[v _maxLEDs maxLEDs `DCuc  1 e 1 0 ]
+"21
+[v _temp temp `uc  1 e 1 0 ]
+"22
+[v _i i `uc  1 e 1 0 ]
+"27
+[v _redArray redArray `[8]uc  1 e 8 0 ]
+"28
+[v _blueArray blueArray `[8]uc  1 e 8 0 ]
+"29
+[v _greenArray greenArray `[8]uc  1 e 8 0 ]
+"30
+[v _randArray randArray `[8]uc  1 e 8 0 ]
+"32
+[v _tempRand tempRand `uc  1 e 1 0 ]
+"33
+[v _finalRed finalRed `uc  1 e 1 0 ]
+"34
+[v _finalBlue finalBlue `uc  1 e 1 0 ]
+"35
+[v _finalGreen finalGreen `uc  1 e 1 0 ]
+"37
+[v _recieved recieved `uc  1 e 1 0 ]
+"38
+[v _hasrecieved hasrecieved `a  1 e 1 0 ]
+"199
+[v _main main `(i  1 e 2 0 ]
+{
+"205
+[v main@state state `E1890  1 a 1 8 ]
+"246
+} 0
+"178
+[v _populateArray populateArray `(v  1 e 1 0 ]
+{
+"179
+[v populateArray@i i `i  1 a 2 2 ]
+"184
+} 0
+"81
+[v _neoRGB neoRGB `(v  1 e 1 0 ]
+{
+[v neoRGB@red red `uc  1 a 1 wreg ]
+[v neoRGB@red red `uc  1 a 1 wreg ]
+[v neoRGB@green green `uc  1 p 1 0 ]
+[v neoRGB@blue blue `uc  1 p 1 1 ]
+[v neoRGB@leds leds `uc  1 p 1 2 ]
+[v neoRGB@red red `uc  1 a 1 4 ]
+"113
+} 0
+"37 H:\MPLAB\Wave2.X\RAINBO.c
+[v _initEUSART initEUSART `(v  1 e 1 0 ]
+{
+"48
+} 0
+"12
+[v _init init `(v  1 e 1 0 ]
+{
+"35
+} 0

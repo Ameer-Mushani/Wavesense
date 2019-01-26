@@ -1,0 +1,863 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"5489 C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 5489: extern volatile __bit RA5 __attribute__((address(0x65)));
+[v _RA5 `Vb ~T0 @X0 0 e@101 ]
+[v F1835 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:\Program Files\Microchip\xc8\v2.00\pic\include\pic.h
+[v __delay `JF1835 ~T0 @X0 0 e ]
+[p i __delay ]
+"968 C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 968: extern volatile unsigned char CPSCON1 __attribute__((address(0x01F)));
+[v _CPSCON1 `Vuc ~T0 @X0 0 e@31 ]
+"581
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 581: extern volatile unsigned char TMR0 __attribute__((address(0x015)));
+[v _TMR0 `Vuc ~T0 @X0 0 e@21 ]
+[p mainexit ]
+"25 ./RAINBO-TX.h
+[; ;./RAINBO-TX.h: 25: void init(void);
+[v _init `(v ~T0 @X0 0 ef ]
+"5654 C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 5654: extern volatile __bit SWDTEN __attribute__((address(0x4B8)));
+[v _SWDTEN `Vb ~T0 @X0 0 e@1208 ]
+"54 C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"481
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 481: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"543
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 543: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"583
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 583: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"603
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 603: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"610
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 610: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"630
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 630: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"650
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 650: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"722
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 722: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"799
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 799: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"819
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 819: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"839
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 839: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"910
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 910: __asm("CPSCON0 equ 01Eh");
+[; <" CPSCON0 equ 01Eh ;# ">
+"970
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 970: __asm("CPSCON1 equ 01Fh");
+[; <" CPSCON1 equ 01Fh ;# ">
+"1004
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1004: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1054
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1054: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1116
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1116: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1156
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1156: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1239
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1239: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1290
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1290: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1349
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1349: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1407
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1407: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1479
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1479: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1541
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1541: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1548
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1548: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1568
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1568: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1588
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1588: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1668
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1668: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1734
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1734: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1779
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1779: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"1836
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1836: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"1896
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1896: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"1916
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1916: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"1949
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 1949: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2025
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2025: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2080
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2080: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2132
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2132: __asm("SRCON0 equ 011Ah");
+[; <" SRCON0 equ 011Ah ;# ">
+"2203
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2203: __asm("SRCON1 equ 011Bh");
+[; <" SRCON1 equ 011Bh ;# ">
+"2255
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2255: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"2260
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2260: __asm("APFCON0 equ 011Dh");
+[; <" APFCON0 equ 011Dh ;# ">
+"2397
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2397: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2444
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2444: __asm("EEADR equ 0191h");
+[; <" EEADR equ 0191h ;# ">
+"2451
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2451: __asm("EEADRL equ 0191h");
+[; <" EEADRL equ 0191h ;# ">
+"2471
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2471: __asm("EEADRH equ 0192h");
+[; <" EEADRH equ 0192h ;# ">
+"2491
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2491: __asm("EEDAT equ 0193h");
+[; <" EEDAT equ 0193h ;# ">
+"2498
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2498: __asm("EEDATL equ 0193h");
+[; <" EEDATL equ 0193h ;# ">
+"2503
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2503: __asm("EEDATA equ 0193h");
+[; <" EEDATA equ 0193h ;# ">
+"2536
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2536: __asm("EEDATH equ 0194h");
+[; <" EEDATH equ 0194h ;# ">
+"2556
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2556: __asm("EECON1 equ 0195h");
+[; <" EECON1 equ 0195h ;# ">
+"2618
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2618: __asm("EECON2 equ 0196h");
+[; <" EECON2 equ 0196h ;# ">
+"2638
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2638: __asm("VREGCON equ 0197h");
+[; <" VREGCON equ 0197h ;# ">
+"2672
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2672: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"2692
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2692: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"2712
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2712: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"2719
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2719: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"2724
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2724: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"2728
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2728: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"2773
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2773: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"2778
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2778: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"2811
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2811: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"2873
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2873: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"2935
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2935: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"2987
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 2987: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3045
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3045: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3050
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3050: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3083
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3083: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"3088
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3088: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3121
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3121: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"3126
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3126: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3159
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3159: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"3164
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3164: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3281
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3281: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"3286
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3286: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3290
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3290: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"3485
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3485: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"3490
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3490: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"3607
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3607: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"3612
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3612: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"3729
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3729: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"3736
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3736: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"3756
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3756: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"3776
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3776: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"3858
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3858: __asm("PWM1CON equ 0294h");
+[; <" PWM1CON equ 0294h ;# ">
+"3928
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3928: __asm("CCP1AS equ 0295h");
+[; <" CCP1AS equ 0295h ;# ">
+"3933
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 3933: __asm("ECCP1AS equ 0295h");
+[; <" ECCP1AS equ 0295h ;# ">
+"4090
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4090: __asm("PSTR1CON equ 0296h");
+[; <" PSTR1CON equ 0296h ;# ">
+"4124
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4124: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"4182
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4182: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"4240
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4240: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"4298
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4298: __asm("CLKRCON equ 039Ah");
+[; <" CLKRCON equ 039Ah ;# ">
+"4374
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4374: __asm("MDCON equ 039Ch");
+[; <" MDCON equ 039Ch ;# ">
+"4425
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4425: __asm("MDSRC equ 039Dh");
+[; <" MDSRC equ 039Dh ;# ">
+"4478
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4478: __asm("MDCARL equ 039Eh");
+[; <" MDCARL equ 039Eh ;# ">
+"4543
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4543: __asm("MDCARH equ 039Fh");
+[; <" MDCARH equ 039Fh ;# ">
+"4608
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4608: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"4640
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4640: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"4660
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4660: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"4680
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4680: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"4700
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4700: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"4720
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4720: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"4740
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4740: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"4760
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4760: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"4780
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4780: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"4800
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4800: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"4820
+[; ;C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h: 4820: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"13 ./RAINBO-TX.h
+[; ;./RAINBO-TX.h: 13: unsigned char T1 = 0;
+[v _T1 `uc ~T0 @X0 1 e ]
+[i _T1
+-> -> 0 `i `uc
+]
+"14
+[; ;./RAINBO-TX.h: 14: unsigned char T2 = 1;
+[v _T2 `uc ~T0 @X0 1 e ]
+[i _T2
+-> -> 1 `i `uc
+]
+"15
+[; ;./RAINBO-TX.h: 15: unsigned char T3 = 2;
+[v _T3 `uc ~T0 @X0 1 e ]
+[i _T3
+-> -> 2 `i `uc
+]
+"16
+[; ;./RAINBO-TX.h: 16: unsigned char T4 = 3;
+[v _T4 `uc ~T0 @X0 1 e ]
+[i _T4
+-> -> 3 `i `uc
+]
+"18 Touchsensor.c
+[; ;Touchsensor.c: 18: unsigned int Ttemp;
+[v _Ttemp `ui ~T0 @X0 1 e ]
+"19
+[; ;Touchsensor.c: 19: unsigned char Tcount[4];
+[v _Tcount `uc ~T0 @X0 -> 4 `i e ]
+"20
+[; ;Touchsensor.c: 20: unsigned char Tavg[4];
+[v _Tavg `uc ~T0 @X0 -> 4 `i e ]
+"21
+[; ;Touchsensor.c: 21: unsigned char Ttrip[4];
+[v _Ttrip `uc ~T0 @X0 -> 4 `i e ]
+"22
+[; ;Touchsensor.c: 22: unsigned char Tdelta[4];
+[v _Tdelta `uc ~T0 @X0 -> 4 `i e ]
+"23
+[; ;Touchsensor.c: 23: unsigned char Tactive;
+[v _Tactive `uc ~T0 @X0 1 e ]
+"24
+[; ;Touchsensor.c: 24: unsigned char newTarget;
+[v _newTarget `uc ~T0 @X0 1 e ]
+"25
+[; ;Touchsensor.c: 25: unsigned char Target;
+[v _Target `uc ~T0 @X0 1 e ]
+"26
+[; ;Touchsensor.c: 26: signed char Tdir;
+[v _Tdir `c ~T0 @X0 1 e ]
+"27
+[; ;Touchsensor.c: 27: const char up = 1;
+[v _up `Cuc ~T0 @X0 1 e ]
+[i _up
+-> -> 1 `i `uc
+]
+"28
+[; ;Touchsensor.c: 28: const char hold = 0;
+[v _hold `Cuc ~T0 @X0 1 e ]
+[i _hold
+-> -> 0 `i `uc
+]
+"29
+[; ;Touchsensor.c: 29: const char down = -1;
+[v _down `Cuc ~T0 @X0 1 e ]
+[i _down
+-> -U -> 1 `i `uc
+]
+"35
+[; ;Touchsensor.c: 35: void Tpulse(void)
+[v _Tpulse `(v ~T0 @X0 1 ef ]
+"36
+[; ;Touchsensor.c: 36: {
+{
+[e :U _Tpulse ]
+[f ]
+"38
+[; ;Touchsensor.c: 38:     for(unsigned char i = 0; i != 4; i++)
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ != -> _i `i -> 4 `i 268  ]
+[e $U 269  ]
+[e :U 268 ]
+"39
+[; ;Touchsensor.c: 39:     {
+{
+"40
+[; ;Touchsensor.c: 40:         RA5 = 1;
+[e = _RA5 -> -> 1 `i `b ]
+"42
+[; ;Touchsensor.c: 42:         for(unsigned char c = Tcount[i]; c != 0; c--)
+{
+[v _c `uc ~T0 @X0 1 a ]
+[e = _c *U + &U _Tcount * -> _i `ux -> -> # *U &U _Tcount `ui `ux ]
+[e $ != -> _c `i -> 0 `i 271  ]
+[e $U 272  ]
+[e :U 271 ]
+"43
+[; ;Touchsensor.c: 43:         {
+{
+"44
+[; ;Touchsensor.c: 44:             _delay(2);
+[e ( __delay (1 -> -> -> 2 `i `l `ul ]
+"45
+[; ;Touchsensor.c: 45:         }
+}
+[e -- _c -> -> 1 `i `uc ]
+[e $ != -> _c `i -> 0 `i 271  ]
+[e :U 272 ]
+}
+"46
+[; ;Touchsensor.c: 46:         RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"47
+[; ;Touchsensor.c: 47:         _delay((unsigned long)((1)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"48
+[; ;Touchsensor.c: 48:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ != -> _i `i -> 4 `i 268  ]
+[e :U 269 ]
+}
+"49
+[; ;Touchsensor.c: 49: }
+[e :UE 267 ]
+}
+"50
+[; ;Touchsensor.c: 50: void bitDelay(){
+[v _bitDelay `(v ~T0 @X0 1 ef ]
+{
+[e :U _bitDelay ]
+[f ]
+"51
+[; ;Touchsensor.c: 51:     _delay((unsigned long)((56)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 56 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"52
+[; ;Touchsensor.c: 52: }
+[e :UE 274 ]
+}
+"53
+[; ;Touchsensor.c: 53: _Bool isTouched(unsigned char tcount){
+[v _isTouched `(a ~T0 @X0 1 ef1`uc ]
+{
+[e :U _isTouched ]
+[v _tcount `uc ~T0 @X0 1 r1 ]
+[f ]
+"54
+[; ;Touchsensor.c: 54:     return (tcount < 70);
+[e ) -> -> < -> _tcount `i -> 70 `i `i `a ]
+[e $UE 275  ]
+"55
+[; ;Touchsensor.c: 55: }
+[e :UE 275 ]
+}
+"57
+[; ;Touchsensor.c: 57: void transmitBits(void){
+[v _transmitBits `(v ~T0 @X0 1 ef ]
+{
+[e :U _transmitBits ]
+[f ]
+"61
+[; ;Touchsensor.c: 61:     RA5 = 1;
+[e = _RA5 -> -> 1 `i `b ]
+"62
+[; ;Touchsensor.c: 62:     bitDelay();
+[e ( _bitDelay ..  ]
+"63
+[; ;Touchsensor.c: 63:     for(unsigned char i = 0; i<4; i++){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 277  ]
+[e $U 278  ]
+[e :U 277 ]
+{
+"64
+[; ;Touchsensor.c: 64:         if(isTouched(Tcount[i])){
+[e $ ! != -> ( _isTouched (1 *U + &U _Tcount * -> _i `ux -> -> # *U &U _Tcount `ui `ux `i -> 0 `i 280  ]
+{
+"65
+[; ;Touchsensor.c: 65:             RA5 = 1;
+[e = _RA5 -> -> 1 `i `b ]
+"66
+[; ;Touchsensor.c: 66:             bitDelay();
+[e ( _bitDelay ..  ]
+"67
+[; ;Touchsensor.c: 67:         }
+}
+[e $U 281  ]
+"68
+[; ;Touchsensor.c: 68:         else {
+[e :U 280 ]
+{
+"69
+[; ;Touchsensor.c: 69:             RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"70
+[; ;Touchsensor.c: 70:             bitDelay();
+[e ( _bitDelay ..  ]
+"71
+[; ;Touchsensor.c: 71:         }
+}
+[e :U 281 ]
+"72
+[; ;Touchsensor.c: 72:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 277  ]
+[e :U 278 ]
+}
+"73
+[; ;Touchsensor.c: 73:     for(unsigned char i = 0; i!=4; i++){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ != -> _i `i -> 4 `i 282  ]
+[e $U 283  ]
+[e :U 282 ]
+{
+"74
+[; ;Touchsensor.c: 74:         RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"75
+[; ;Touchsensor.c: 75:         bitDelay();
+[e ( _bitDelay ..  ]
+"76
+[; ;Touchsensor.c: 76:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ != -> _i `i -> 4 `i 282  ]
+[e :U 283 ]
+}
+"77
+[; ;Touchsensor.c: 77:     RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"78
+[; ;Touchsensor.c: 78:     bitDelay();
+[e ( _bitDelay ..  ]
+"80
+[; ;Touchsensor.c: 80: }
+[e :UE 276 ]
+}
+"85
+[; ;Touchsensor.c: 85: void initTouch(void)
+[v _initTouch `(v ~T0 @X0 1 ef ]
+"86
+[; ;Touchsensor.c: 86: {
+{
+[e :U _initTouch ]
+[f ]
+"87
+[; ;Touchsensor.c: 87:  for(unsigned char i = 0; i != 4; i++)
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ != -> _i `i -> 4 `i 286  ]
+[e $U 287  ]
+[e :U 286 ]
+"88
+[; ;Touchsensor.c: 88:  {
+{
+"89
+[; ;Touchsensor.c: 89:   CPSCON1 = i;
+[e = _CPSCON1 _i ]
+"90
+[; ;Touchsensor.c: 90:   Ttemp = 0;
+[e = _Ttemp -> -> 0 `i `ui ]
+"91
+[; ;Touchsensor.c: 91:   for(unsigned char c = 16; c != 0; c--)
+{
+[v _c `uc ~T0 @X0 1 a ]
+[e = _c -> -> 16 `i `uc ]
+[e $ != -> _c `i -> 0 `i 289  ]
+[e $U 290  ]
+[e :U 289 ]
+"92
+[; ;Touchsensor.c: 92:   {
+{
+"93
+[; ;Touchsensor.c: 93:    TMR0 = 0;
+[e = _TMR0 -> -> 0 `i `uc ]
+"94
+[; ;Touchsensor.c: 94:    _delay((unsigned long)((1)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"95
+[; ;Touchsensor.c: 95:    Ttemp += TMR0;
+[e =+ _Ttemp -> _TMR0 `ui ]
+"96
+[; ;Touchsensor.c: 96:   }
+}
+[e -- _c -> -> 1 `i `uc ]
+[e $ != -> _c `i -> 0 `i 289  ]
+[e :U 290 ]
+}
+"97
+[; ;Touchsensor.c: 97:   Tavg[i] = Ttemp / 16;
+[e = *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux -> / _Ttemp -> -> 16 `i `ui `uc ]
+"98
+[; ;Touchsensor.c: 98:  }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ != -> _i `i -> 4 `i 286  ]
+[e :U 287 ]
+}
+"99
+[; ;Touchsensor.c: 99: }
+[e :UE 285 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"105
+[; ;Touchsensor.c: 105: int main(void)
+[v _main `(i ~T0 @X0 1 ef ]
+"106
+[; ;Touchsensor.c: 106: {
+{
+[e :U _main ]
+[f ]
+"107
+[; ;Touchsensor.c: 107:  init();
+[e ( _init ..  ]
+"108
+[; ;Touchsensor.c: 108:  initTouch();
+[e ( _initTouch ..  ]
+"109
+[; ;Touchsensor.c: 109:  RA5= 0;
+[e = _RA5 -> -> 0 `i `b ]
+"112
+[; ;Touchsensor.c: 112:  while(1)
+[e :U 294 ]
+"113
+[; ;Touchsensor.c: 113:  {
+{
+"114
+[; ;Touchsensor.c: 114:   SWDTEN = 0;
+[e = _SWDTEN -> -> 0 `i `b ]
+"116
+[; ;Touchsensor.c: 116:   Tactive = 0;
+[e = _Tactive -> -> 0 `i `uc ]
+"118
+[; ;Touchsensor.c: 118:   for(unsigned char i = 0; i != 4; i++)
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ != -> _i `i -> 4 `i 296  ]
+[e $U 297  ]
+[e :U 296 ]
+"119
+[; ;Touchsensor.c: 119:   {
+{
+"120
+[; ;Touchsensor.c: 120:    CPSCON1 = i;
+[e = _CPSCON1 _i ]
+"121
+[; ;Touchsensor.c: 121:    TMR0 = 0;
+[e = _TMR0 -> -> 0 `i `uc ]
+"122
+[; ;Touchsensor.c: 122:    _delay((unsigned long)((2)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"123
+[; ;Touchsensor.c: 123:    Tcount[i] = TMR0;
+[e = *U + &U _Tcount * -> _i `ux -> -> # *U &U _Tcount `ui `ux _TMR0 ]
+"124
+[; ;Touchsensor.c: 124:    Ttrip[i] = Tavg[i] / 4;
+[e = *U + &U _Ttrip * -> _i `ux -> -> # *U &U _Ttrip `ui `ux -> / -> *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux `i -> 4 `i `uc ]
+"125
+[; ;Touchsensor.c: 125:    if(Tcount[i] < (Tavg[i] - Ttrip[i]))
+[e $ ! < -> *U + &U _Tcount * -> _i `ux -> -> # *U &U _Tcount `ui `ux `i - -> *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux `i -> *U + &U _Ttrip * -> _i `ux -> -> # *U &U _Ttrip `ui `ux `i 299  ]
+"126
+[; ;Touchsensor.c: 126:    {
+{
+"127
+[; ;Touchsensor.c: 127:     Tactive ++;
+[e ++ _Tactive -> -> 1 `i `uc ]
+"128
+[; ;Touchsensor.c: 128:     newTarget = i + 1;
+[e = _newTarget -> + -> _i `i -> 1 `i `uc ]
+"129
+[; ;Touchsensor.c: 129:     Tdelta[i] = Tavg[i] - Tcount[i];
+[e = *U + &U _Tdelta * -> _i `ux -> -> # *U &U _Tdelta `ui `ux -> - -> *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux `i -> *U + &U _Tcount * -> _i `ux -> -> # *U &U _Tcount `ui `ux `i `uc ]
+"130
+[; ;Touchsensor.c: 130:    }
+}
+[e $U 300  ]
+"131
+[; ;Touchsensor.c: 131:    else
+[e :U 299 ]
+"132
+[; ;Touchsensor.c: 132:    {
+{
+"133
+[; ;Touchsensor.c: 133:     Tdelta[i] = Tavg[i] - Tcount[i];
+[e = *U + &U _Tdelta * -> _i `ux -> -> # *U &U _Tdelta `ui `ux -> - -> *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux `i -> *U + &U _Tcount * -> _i `ux -> -> # *U &U _Tcount `ui `ux `i `uc ]
+"134
+[; ;Touchsensor.c: 134:     Tavg[i] = Tavg[i] - (Tavg[i] / 16) + (Tcount[i] / 16);
+[e = *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux -> + - -> *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux `i / -> *U + &U _Tavg * -> _i `ux -> -> # *U &U _Tavg `ui `ux `i -> 16 `i / -> *U + &U _Tcount * -> _i `ux -> -> # *U &U _Tcount `ui `ux `i -> 16 `i `uc ]
+"135
+[; ;Touchsensor.c: 135:    }
+}
+[e :U 300 ]
+"136
+[; ;Touchsensor.c: 136:   }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ != -> _i `i -> 4 `i 296  ]
+[e :U 297 ]
+}
+"138
+[; ;Touchsensor.c: 138:   if(Tactive == 0)
+[e $ ! == -> _Tactive `i -> 0 `i 301  ]
+"139
+[; ;Touchsensor.c: 139:   {
+{
+"140
+[; ;Touchsensor.c: 140:    newTarget = 0;
+[e = _newTarget -> -> 0 `i `uc ]
+"141
+[; ;Touchsensor.c: 141:   }
+}
+[e :U 301 ]
+"145
+[; ;Touchsensor.c: 145:   if(Tactive > 1)
+[e $ ! > -> _Tactive `i -> 1 `i 302  ]
+"146
+[; ;Touchsensor.c: 146:   {
+{
+"147
+[; ;Touchsensor.c: 147:    if(Tdelta[1] > Tdelta[2])
+[e $ ! > -> *U + &U _Tdelta * -> -> -> 1 `i `ui `ux -> -> # *U &U _Tdelta `ui `ux `i -> *U + &U _Tdelta * -> -> -> 2 `i `ui `ux -> -> # *U &U _Tdelta `ui `ux `i 303  ]
+"148
+[; ;Touchsensor.c: 148:    {
+{
+"149
+[; ;Touchsensor.c: 149:     newTarget = 2;
+[e = _newTarget -> -> 2 `i `uc ]
+"150
+[; ;Touchsensor.c: 150:     if(Tdelta[0] > Tdelta[1])
+[e $ ! > -> *U + &U _Tdelta * -> -> -> 0 `i `ui `ux -> -> # *U &U _Tdelta `ui `ux `i -> *U + &U _Tdelta * -> -> -> 1 `i `ui `ux -> -> # *U &U _Tdelta `ui `ux `i 304  ]
+"151
+[; ;Touchsensor.c: 151:      newTarget = 1;
+[e = _newTarget -> -> 1 `i `uc ]
+[e :U 304 ]
+"152
+[; ;Touchsensor.c: 152:    }
+}
+[e $U 305  ]
+"153
+[; ;Touchsensor.c: 153:    else
+[e :U 303 ]
+"154
+[; ;Touchsensor.c: 154:    {
+{
+"155
+[; ;Touchsensor.c: 155:     newTarget = 3;
+[e = _newTarget -> -> 3 `i `uc ]
+"156
+[; ;Touchsensor.c: 156:     if(Tdelta[3] > Tdelta[2])
+[e $ ! > -> *U + &U _Tdelta * -> -> -> 3 `i `ui `ux -> -> # *U &U _Tdelta `ui `ux `i -> *U + &U _Tdelta * -> -> -> 2 `i `ui `ux -> -> # *U &U _Tdelta `ui `ux `i 306  ]
+"157
+[; ;Touchsensor.c: 157:      newTarget = 4;
+[e = _newTarget -> -> 4 `i `uc ]
+[e :U 306 ]
+"158
+[; ;Touchsensor.c: 158:    }
+}
+[e :U 305 ]
+"159
+[; ;Touchsensor.c: 159:   }
+}
+[e :U 302 ]
+"161
+[; ;Touchsensor.c: 161:   Target = newTarget;
+[e = _Target _newTarget ]
+"164
+[; ;Touchsensor.c: 164:         transmitBits();
+[e ( _transmitBits ..  ]
+"165
+[; ;Touchsensor.c: 165:   SWDTEN = 1;
+[e = _SWDTEN -> -> 1 `i `b ]
+"167
+[; ;Touchsensor.c: 167:  }
+}
+[e :U 293 ]
+[e $U 294  ]
+[e :U 295 ]
+"168
+[; ;Touchsensor.c: 168: }
+[e :UE 292 ]
+}

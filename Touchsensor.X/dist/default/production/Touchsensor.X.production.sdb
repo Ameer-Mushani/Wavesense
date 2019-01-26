@@ -1,0 +1,125 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1840 ]
+[d frameptr 6 ]
+"5 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 H:\MPLAB\Touchsensor.X\RAINBO-TX.c
+[v _init init `(v  1 e 1 0 ]
+"50 H:\MPLAB\Touchsensor.X\Touchsensor.c
+[v _bitDelay bitDelay `(v  1 e 1 0 ]
+"53
+[v _isTouched isTouched `(a  1 e 1 0 ]
+"57
+[v _transmitBits transmitBits `(v  1 e 1 0 ]
+"85
+[v _initTouch initTouch `(v  1 e 1 0 ]
+"105
+[v _main main `(i  1 e 2 0 ]
+"429 C:\Program Files\Microchip\xc8\v2.00\pic\include\pic12f1840.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"581
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"908
+[v _CPSCON0 CPSCON0 `VEuc  1 e 1 @30 ]
+"968
+[v _CPSCON1 CPSCON1 `VEuc  1 e 1 @31 ]
+"1002
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1154
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1288
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1405
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1732
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2395
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2985
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"5489
+[v _RA5 RA5 `VEb  1 e 0 @101 ]
+"5654
+[v _SWDTEN SWDTEN `VEb  1 e 0 @1208 ]
+"18 H:\MPLAB\Touchsensor.X\Touchsensor.c
+[v _Ttemp Ttemp `ui  1 e 2 0 ]
+"19
+[v _Tcount Tcount `[4]uc  1 e 4 0 ]
+"20
+[v _Tavg Tavg `[4]uc  1 e 4 0 ]
+"21
+[v _Ttrip Ttrip `[4]uc  1 e 4 0 ]
+"22
+[v _Tdelta Tdelta `[4]uc  1 e 4 0 ]
+"23
+[v _Tactive Tactive `uc  1 e 1 0 ]
+"24
+[v _newTarget newTarget `uc  1 e 1 0 ]
+"25
+[v _Target Target `uc  1 e 1 0 ]
+"105
+[v _main main `(i  1 e 2 0 ]
+{
+"118
+[v main@i i `uc  1 a 1 9 ]
+"168
+} 0
+"57
+[v _transmitBits transmitBits `(v  1 e 1 0 ]
+{
+"73
+[v transmitBits@i_74 i `uc  1 a 1 2 ]
+"63
+[v transmitBits@i i `uc  1 a 1 3 ]
+"80
+} 0
+"53
+[v _isTouched isTouched `(a  1 e 1 0 ]
+{
+[v isTouched@tcount tcount `uc  1 a 1 wreg ]
+[v isTouched@tcount tcount `uc  1 a 1 wreg ]
+[v isTouched@tcount tcount `uc  1 a 1 0 ]
+"55
+} 0
+"50
+[v _bitDelay bitDelay `(v  1 e 1 0 ]
+{
+"52
+} 0
+"85
+[v _initTouch initTouch `(v  1 e 1 0 ]
+{
+"91
+[v initTouch@c c `uc  1 a 1 3 ]
+"87
+[v initTouch@i i `uc  1 a 1 4 ]
+"99
+} 0
+"12 H:\MPLAB\Touchsensor.X\RAINBO-TX.c
+[v _init init `(v  1 e 1 0 ]
+{
+"36
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
